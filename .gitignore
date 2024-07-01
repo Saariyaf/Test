@@ -1,0 +1,9 @@
+.vs/ 
+bin/ 
+obj/ 
+*.vsidx 
+*.vsmdi 
+*.vssscc 
+*.suo 
+*.user 
+*.cache 

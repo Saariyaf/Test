@@ -1,0 +1,7 @@
+CREATE TABLE UserLogins (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    LoginTime DATETIME NOT NULL,
+    LogoutTime DATETIME NULL
+);

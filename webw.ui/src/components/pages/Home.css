@@ -1,0 +1,16 @@
+/* src/components/pages/Home.css */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the home container full height */
+  text-align: center;
+}
+
+.home-image {
+  max-width: 70%; /* Adjust the width as needed */
+  max-height: 80vh; /* Ensure the image fits within the viewport */
+  height: auto;
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
